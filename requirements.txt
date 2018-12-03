@@ -1,0 +1,6 @@
+tensorflow
+tensorflow-gpu==1.9
+numpy
+scipy
+Pillow
+matplotlib
