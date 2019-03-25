@@ -45,3 +45,23 @@ If you found this repository useful please cite the following:
 
 ```
 
+### Single Image Depth Prediction Results (KITTI 0-50m)
+
+| RMSE (m)    | Rel<sub>abs</sub>| Accuracy ($\delta$)  | Accuracy ($\delta$<sup>2</sup>) | Accuracy ($\delta$ <sup>3</sup>)|
+| ----------- |------------------| ---------------------|---------------------------------|---------------------------------|
+|  <p align="center"> 3.284  </p>    |    <p align="center">0.092  </p>       | 	<p align="center">90.6% 	</p>	| 		<p align="center">97.1%	</p>	  | 		<p align="center">98.9%	</p>	    |
+
+
+### Single Image Depth Prediction Results (NYUv2 [using the indoor model] )
+
+| RMSE (m)    | Rel<sub>abs</sub>| Accuracy ($\delta$)  | Accuracy ($\delta$<sup>2</sup>) | Accuracy ($\delta$ <sup>3</sup>)|
+| ----------- |------------------| ---------------------|---------------------------------|---------------------------------|
+|   <p align="center">0.478    </p>   |   <p align="center"> 0.111  </p>         | <p align="center">	87.2% 		| 		<p align="center">97.8%		 </p>   | 		<p align="center">99.5%  </p> 	    | 
+
+
+### Pose Estimation  (KITTI)
+
+| Sequence    | ATE (m) | RPE (m) |   RPE ($^\circ$) |  
+| ----------- |------------------| ---------------------| ---------------------|
+|   <p align="center">9    </p>   |   <p align="center"> 16.55</p>         | <p align="center">	0.047	</p> |<p align="center">	0.128	</p> 
+|  <p align="center">10  </p> | <p align="center"> 9.846</p>         | <p align="center">	0.039	</p> | <p align="center">	0.138	</p>|
