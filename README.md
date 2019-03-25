@@ -7,7 +7,7 @@ ENG: End-to-end neural geometry for robust depth and pose estimation using CNNs
 
 ### Requirements
 
-The code is tested on CUDA 9.0 + Python 3.5.2 + Tensorflow 1.9
+The code is tested on CUDA 9.0 + cudNN 7.4.2 + Python 3.5.2 + Tensorflow 1.9
 
 Download the weights (requires wget)
 ``` bash

@@ -1,4 +1,4 @@
-tensorflow
+tensorflow==1.9
 tensorflow-gpu==1.9
 numpy
 scipy
